@@ -34,7 +34,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="w-6/12 m-auto flex flex-col gap-4 relative z-1">
+    <div className="text-0orw-6/12 m-auto flex flex-col gap-4 relative z-1">
       <ImageCard
         src={items[0].src}
         alt={items[0].alt}

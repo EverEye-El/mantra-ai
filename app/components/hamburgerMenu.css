@@ -8,6 +8,8 @@
     top: 3rem;
     transform: translate(-50%, 0);
     background-color: #181818;
+    opacity: 95%;
+    backdrop-filter: blur(4px);
     color: #F5F5F5;
     display: none;
 }

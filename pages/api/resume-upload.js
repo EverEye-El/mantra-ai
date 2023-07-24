@@ -25,7 +25,7 @@ export default async function handler(req, res) {
   // Always use a try catch block to do asynchronous requests and catch any errors
   try {
     // Load the Directories
-    const loader = new DirectoryLoader("/Users/nwar/openai-javascript-course/data/resumes", {
+    const loader = new DirectoryLoader("/Users/jamiegolden/MantraAI-Devfolio/data/resumes", {
       ".pdf": (path) => new PDFLoader(path, "/pdf")
     })
 

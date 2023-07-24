@@ -11,7 +11,7 @@ export default async function handler(req, res) {
     console.log("Inside the PDF handler");
     
     /** STEP ONE: LOAD DOCUMENT */
-    const bookPath = "/Users/nwar/openai-javascript-course/data/document_loaders/naval-ravikant-book.pdf";
+    const bookPath = "/Users/jamiegolden/MantraAI-Devfolio/data/document_loaders";
     const loader = new PDFLoader(bookPath);
 
     const docs = await loader.load();
