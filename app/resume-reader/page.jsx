@@ -116,7 +116,7 @@ const ResumeReader = () => {
               <PageHeader
                 heading="Your personal HR assistant"
                 boldText="Get information on a whole lot of documents."
-                description="This tool uses Document Loaders, OpenAI Embeddings, Summarization Chain, Pinecone, VectorDB QA Chain, Prompt Templates, and the Vector Store Agent."
+                description="This tool uses Document Loaders, OpenAI Embeddings, Summarization Chain, Pinecone, VectorDB QA Chain, Prompt Templates, and the Vector Store Agent. Head over to the Chat Module to get started!"
               />
 
               <ButtonContainer>

@@ -39,8 +39,7 @@ export default function Home() {
       <p
         className={`w-full mt-4 text-center text-10 leading-7 sm:text-2xl sm:leading-9 sm:text-center lg:text-3xl ${sourceCodePro.className}`}
       >
-        Remember, this journey is yours. So let's{" "}
-        <strong>roll up our sleeves, dive in, and start building</strong>. 🔨
+        ---
       </p>
     </div>
   );

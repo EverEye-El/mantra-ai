@@ -84,9 +84,9 @@ const ContentGenerator = () => {
         leftChildren={
           <>
             <PageHeader
-              heading="Automated Content Generator"
+              heading="Automated Video 2 Content Generator"
               boldText="Doing your own manual research is so 2022. Let's automate it."
-              description="This tool uses the agents to create a unique video script for you. Head over to Module X to get started!"
+              description="This tool uses the agents to create a unique video script for you. Head over to the Chat Module to get started!"
             />
           </>
         }

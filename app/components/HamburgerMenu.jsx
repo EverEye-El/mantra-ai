@@ -70,7 +70,7 @@ const HamburgerMenu = () => {
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
                   <div className="absolute inset-0">
                     <Image
-                      src="/assets/images/pdf.png"
+                      src="/assets/images/pdf2.png"
                       alt="robot reading newspaper"
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -92,7 +92,7 @@ const HamburgerMenu = () => {
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
                   <div className="absolute inset-0">
                     <Image
-                      src="/assets/images/brain.png"
+                      src="/assets/images/brain2.png"
                       alt="robot reading newspaper"
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -114,7 +114,7 @@ const HamburgerMenu = () => {
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
                   <div className="absolute inset-0">
                     <Image
-                      src="/assets/images/stream.png"
+                      src="/assets/images/stream2.png"
                       alt="robot reading newspaper"
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -136,7 +136,7 @@ const HamburgerMenu = () => {
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
                   <div className="absolute inset-0">
                     <Image
-                      src="/assets/images/youtube.png"
+                      src="/assets/images/youtube2.png"
                       alt="robot reading newspaper"
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -158,7 +158,7 @@ const HamburgerMenu = () => {
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
                   <div className="absolute inset-0">
                     <Image
-                      src="/assets/images/wizard.png"
+                      src="/assets/images/wizard2.png"
                       alt="robot reading newspaper"
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -180,7 +180,7 @@ const HamburgerMenu = () => {
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
                   <div className="absolute inset-0">
                     <Image
-                      src="/assets/images/robohr.png"
+                      src="/assets/images/robohr2.png"
                       alt="robot reading newspaper"
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -196,7 +196,7 @@ const HamburgerMenu = () => {
               </span>
             </a>
           </li>
-          <li className="flex flex-col gap-4">
+          {/* <li className="flex flex-col gap-4">
             <a href="chatcompletions">
               <span>
                 <div className=" rounded-xl overflow-hidden h-40 w-32 drop-shadow">
@@ -217,7 +217,7 @@ const HamburgerMenu = () => {
                 </p>
               </span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

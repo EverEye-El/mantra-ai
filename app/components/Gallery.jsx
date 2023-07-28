@@ -13,23 +13,19 @@ const ImageCard = ({ src, alt, title }) => (
       />
     </div>
     <div className="relative z-10 flex flex-col items-end justify-top h-full m-4">
-      <h4 className="text-2xl font-bold text-gray-200">{title}</h4>
+      <h4 className="text-2xl drop-shadow-md font-bold text-orange-400">{title}</h4>
     </div>
   </div>
 );
 
 const Gallery = () => {
   const items = [
-    { src: "/assets/images/pdf.png", alt: "PDF GPT", title: "PDF-GPT" },
-    { src: "/assets/images/brain.png", alt: "Memory", title: "Memory" },
-    { src: "/assets/images/stream.png", alt: "Stream", title: "Stream" },
-    { src: "/assets/images/youtube.png", alt: "YT Video", title: "YT Video" },
-    {
-      src: "/assets/images/wizard.png",
-      alt: "Content Wizard",
-      title: "Content Wizard",
-    },
-    { src: "/assets/images/robohr.png", alt: "RoboHR", title: "RoboHR" },
+    { src: "/assets/images/pdf2.png", alt: "PDF GPT", title: "PDF-GPT" },
+    { src: "/assets/images/brain2.png", alt: "Memory", title: "Memory" },
+    { src: "/assets/images/stream2.png", alt: "Stream", title: "Stream" },
+    { src: "/assets/images/youtube2.png", alt: "YT Video", title: "YT Video" },
+    { src: "/assets/images/wizard2.png", alt: "Content Wizard", title: "Content Wizard" },
+    { src: "/assets/images/robohr2.png", alt: "RoboHR", title: "RoboHR" },
     { src: "/assets/images/tools.png", alt: "Tools", title: "Tools" },
   ];
 

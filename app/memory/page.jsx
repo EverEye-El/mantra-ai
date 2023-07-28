@@ -74,7 +74,7 @@ const Memory = () => {
         <PageHeader
         heading="I remember everything"
         boldText="Let's see if I can remeber your name and favorite food. This tool will let you ask anything contained in a PDF document."
-        description="This tool uses Buffer Memory and Conversation Chain. Head over to Module X to get started!"
+        description="This tool uses Buffer Memory and Conversation Chain. Head over to Chat Module to get started!"
         />
       </>}
       rightChildren={<> 
